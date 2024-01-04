@@ -2,49 +2,168 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: muli;
 }
 
 body,
 html {
-    width: 100%;
-    height: 100%;
+    max-width: 1200px;
+    max-height: 1940px;
     background: #FFF;
 }
 
-nav {
-    position: absolute;
-    right: 0;
-    padding: 70px;
-}
-
-ul {
+.headermenu {
+    margin: 1em;
     display: flex;
     justify-content: space-between;
-    list-style: none;
-    padding-top: 70px;
+    align-items: center;
+
 }
+
+
+.nav-items {
+    display: flex;
+
+    gap: 20px;
+    list-style: none;
+}
+
+
 
 li a {
     color: var(--1f1534-hyfen, #1F1534);
-    font-family: muli;
+    font-family: Muli;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    padding: 20px;
+
 }
 
-h1 {
-    color: #000;
-    font-family: Muli;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.content-box {
+    padding-left: 190px;
+
+}
+
+.content-box h1 {
     width: 427px;
     height: 112px;
+    top: 283px;
+    left: 190px;
+    font-family: Muli;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    ;
+
+
+}
+
+.content-box p {
+    width: 445px;
+    height: 96px;
+    font-family: Muli;
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7D7987;
+}
+
+.content-box button {
+    width: 200px;
+    height: 56px;
+    top: 564px;
+    left: 190px;
+    border-radius: 55px;
+    background: #458FF6;
+    color: #FFFFFF;
+    border: none;
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+
+
+.services {
+    width: 1120px;
+    height: 745px;
+    top: 1224px;
+    left: 240px;
+    border-radius: 20px;
     display: flex;
-    padding-top: 283px;
-    padding-left: 190px;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    overflow: scroll;  
+    background-color: DodgerBlue;
+    overflow: auto;
+
+  }
+
+
+
+.services div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: lightsteelblue;
+    width: 350px;
+    height: 354px;
+    top: 1224px;
+    left: 240px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 36px;
+  }
+
+
+.services div h3 {
+    width: 160px;
+    height: 56px;
+    top: 1390.41px;
+    left: 279px;
+    font-family: Muli;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+
+
+}
+
+.services div p {
+    width: 266px;
+    height: 84px;
+    top: 1447.41px;
+    left: 279px;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.services div img {
+    display: flex;
+    justify-content: start;
 }
