@@ -362,13 +362,15 @@ section {
     flex-shrink: 0;
     border-radius: 24px;
     background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    margin-top: 266px;
 
 }
+
 .customerfeed {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 .box h2 {
@@ -416,7 +418,6 @@ section {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 48px;
     display: flex;
     align-items: center;
     margin-left: 30px;
@@ -433,7 +434,288 @@ section {
     margin-left: 210px;
 
 }
+
 .stick {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+}
+
+.articles {
+    display: flex;
+    align-items: center;
+}
+
+.disease {
+    width: 350px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    margin-right: 30px;
+}
+
+.text-disease h3 {
+    color: #000;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 20px;
+}
+
+.text-disease p {
+    width: 266px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 20px;
+
+}
+
+.pic-disease img {
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+
+.text-disease h4 {
+    width: 266px;
+    margin: 20px;
+    color: #4089ED;
+    font-family: Muli;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.herbal {
+    width: 350px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    margin-right: 30px;
+
+}
+
+
+.text-herbal h3 {
+    color: #000;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 32px;
+    margin: 20px;
+
+}
+
+.text-herbal p {
+    width: 266px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 20px;
+}
+
+
+
+.text-herbal h4 {
+    width: 266px;
+    margin: 20px;
+    color: #4089ED;
+    font-family: Muli;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.naturalcare {
+    width: 350px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.text-natural h3 {
+    color: #000;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 20px;
+}
+
+.text-natural p {
+    width: 266px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 20px;
+}
+
+.pic-natural img {
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+
+.text-natural h4 {
+    width: 266px;
+    margin: 20px;
+    color: #4089ED;
+    font-family: Muli;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+.checkout {
+    margin-left: 360px;
+    color: #000;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 284px;
+}
+
+.checkout img {
+    margin-left: 172px;
+}
+
+.view {
+    margin-left: 460px;
+    margin-top: 72px;
+}
+
+.view h3 {
+    position: absolute;
+    margin-left: 70px;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+
+.logo-in-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 123px;
+    margin-left: 100px;
+
+}
+
+.trafalgar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.trafalgar img {
+    margin-right: 10px;
+}
+
+.trafalgar h1 {
+    color: #5B9BF3;
+    font-family: Muli;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 13px;
+    position: absolute;
+}
+
+.trafalgar h2 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.company-info p {
+    width: 391px;
+    height: 84px;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.company-info h4 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 31px;
+}
+
+.table-in-footer {
+    width: 100%;
+
+}
+
+table {
+    width: 700px;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 109px;
+}
+
+th {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+td {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.mainfooter {
+    display: flex;
+    flex-direction: row;
+    margin-top: 228px;
+}
+footer {
+    height: 432px;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-top: 228px;
 }
