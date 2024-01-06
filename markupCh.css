@@ -108,7 +108,7 @@ li a {
 .second-row {
     display: flex;
     gap: 40px;
-    margin-bottom:37px;
+    margin-bottom: 37px;
 
 }
 
@@ -121,8 +121,10 @@ section {
 }
 
 .service-img {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 70px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .ourservices {
@@ -143,6 +145,7 @@ section {
     width: 100%;
     margin: auto;
     text-align: center;
+    margin-top: 192px;
 }
 
 .contentheader p {
@@ -154,6 +157,7 @@ section {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
+    margin-left: 150px;
 
 }
 
@@ -176,16 +180,18 @@ section {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+    padding-left: 20px;
+    padding-bottom: 100px;
+
 
 }
 
 .service-item h3 {
-    width: 200px;
-    height: 56px;
     font-family: Muli;
     font-size: 24px;
     font-weight: 700;
     margin-top: 22px;
+    padding-left: 20px;
 }
 
 
@@ -193,14 +199,241 @@ section {
     width: 200px;
     height: 56px;
     display: flex;
-    margin-left: 700px;
+    margin-left: 500px;
 
 }
 
 .learnmore h4 {
     width: 98px;
     height: 60px;
-    margin-left:px; 
+    margin-left: 559px;
+    position: absolute;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.healthcare {
+    width: 486px;
+    height: 388px;
+    display: flex;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.hcpharagraph {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.hcpharagraph h1 {
+    width: 481px;
+    height: 112px;
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.hcpharagraph p {
+    width: 450px;
+    height: 120px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.hcpharagraph img {
+    width: 56px;
+    height: 1px;
+    border-radius: 10px;
+    background: #000;
+}
+
+.hcbutton img {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px;
+
+}
+
+
+
+.hcbutton img {
+    display: flex;
+    margin-left: 679px;
+}
+
+.hcbutton h4 {
+    display: flex;
+    margin-left: 734px;
+    width: 98px;
+    height: 60px;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    position: absolute;
+
+}
+
+.mobileapp {
+    display: flex;
+    align-items: center;
+    margin-top: 265px;
+
+}
+
+.appimage {
+    margin-left: 30px;
+}
+
+.appcontent {
+    width: 420px;
+    height: auto;
+    margin-left: 30px;
+    flex: 1;
+}
+
+.appcontent h1 {
+    width: 254px;
+    height: 96px;
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.appcontent p {
+    width: 420px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.dwnloadbott {
+    margin: top 20px;
+    ;
+}
+
+.dwnloadbott img {
+    margin-left: 30px;
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.dwnloadbott h4 {
+    position: absolute;
+    width: 89px;
+    height: 13px;
+    margin-left: 84px;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.box {
+    width: 1120px;
+    height: 425px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+
+}
+.customerfeed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.box h2 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.edwardpic img {
+    width: 141px;
+    height: 141px;
+    border-radius: 89px;
+    border: 3px solid white;
+    margin-left: 60px;
+
+}
+
+.aboutadward {
+    height: auto;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.name {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.position {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.summary {
+    width: 420px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Muli;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 210px;
+
+}
+.stick {
     display: flex;
     justify-content: center;
-} 
+}
