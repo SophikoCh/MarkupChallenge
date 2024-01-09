@@ -605,6 +605,7 @@ section {
 .view {
     margin-left: 460px;
     margin-top: 72px;
+    margin-bottom: 202px;
 }
 
 .view h3 {
@@ -623,9 +624,6 @@ section {
 .logo-in-footer {
     display: flex;
     flex-direction: column;
-    margin-top: 123px;
-    margin-left: 100px;
-
 }
 
 .trafalgar {
@@ -687,8 +685,8 @@ section {
 table {
     width: 700px;
     text-align: left;
-    margin-left: 70px;
-    margin-top: 109px;
+    gap: 50px;
+    align-items: end;
 }
 
 th {
@@ -711,11 +709,21 @@ td {
 
 .mainfooter {
     display: flex;
-    flex-direction: row;
-    margin-top: 228px;
+    justify-content: space-around;
+    align-items: center;
+    gap:145px;
 }
 footer {
     height: 432px;
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-    margin-top: 228px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 0;
 }
